@@ -6,11 +6,11 @@ var
     suhuCelsius, suhuFahrenheit:real;
 begin
     clrscr;
-    write('Masukan suhu dalam celcius :');
+    write('Input derajat celcius :');
     readln(suhuCelsius);
     suhuFahrenheit:=9/5*suhuCelsius+32;
    
-    writeln('Suhu dalam Fahrenhit:',suhuFahrenheit:0:2);
+    writeln('Derajat Fahrenhit:',suhuFahrenheit:0:2);
     readln;
 
 end.

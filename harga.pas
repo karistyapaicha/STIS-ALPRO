@@ -8,14 +8,14 @@ begin
     clrscr;
     writeln ('Mencari Harga Bayar');
     writeln ('=====================');
-    write ('Input Jumlah barang :');
+    write ('Jumlah barang :');
     readln (Jumlahbarang);
-    write ('Input Harga satuan :');
+    write ('Harga satuan Rp. :');
     readln (Hargasatuan);
-    write ('Input Pajak :');
+    write ('Input Pajak Rp. :');
     readln (Pajak);
     Hargabayar:=Jumlahbarang*Hargasatuan+Pajak;
-    writeln('Harga Bayar =',Hargabayar:0:4);
+    writeln('Harga Bayar Rp. =',Hargabayar:0:0);
     readln;
 
 end.

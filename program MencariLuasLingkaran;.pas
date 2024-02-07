@@ -8,9 +8,9 @@ begin
     clrscr;
     writeln ('Mencari Luas Lingkaran');
     writeln ('======================');
-    write ('Masukan nilai r :');
+    write ('Input Panjang jari-jari (cm) :');
     readln (r);
     Luas_Lingkaran:= 22/7*r*r;
-    writeln('Luas_Lingkaran =', Luas_Lingkaran:0:3);
+    writeln('Luas adalah (cm2) =', Luas_Lingkaran:0:1);
     readln;
 end.
